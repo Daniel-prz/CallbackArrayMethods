@@ -6,6 +6,7 @@ const multiplyBy2 = nums.map(multipliedBy2);
 const keepEvens = nums.filter(evensKept);
 const skipEvens = nums.filter(evensSkipt);
 const logEach = nums.forEach(eachLogged);
+const multiplyEachby2 = nums.forEach(eachmultipliedBy2);
 function multipliedBy2(num) {
   return num * 2;
 }
@@ -26,4 +27,8 @@ function evensSkipt(num) {
 
 function eachLogged(num) {
   console.log(num);
+}
+
+function eachmultipliedBy2(num) {
+  console.log(num * 2);
 }
